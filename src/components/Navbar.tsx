@@ -12,13 +12,13 @@ const Navbar = () => {
 		<nav className="navbar">
 			<div>
 				<img src="/images/logo.svg" alt="logo" />
-				<p className="font-bold">Kartikay's Portfolio</p>
+				<p className="font-bold text-black">Kartikay's Portfolio</p>
 
 				<ul>
 					{navLinks.map((item) => (
 						<li
 							key={item.id}
-							className="cursor-pointer hover:underline"
+							className="cursor-pointer hover:underline text-black font-semibold"
 							onClick={() => openWindow(item.type)}
 						>
 							{item.name}

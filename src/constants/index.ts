@@ -250,7 +250,7 @@ const WORK_LOCATION = {
 			name: "Diversity Assam – Live Platform",
 			icon: "/images/folder.png",
 			kind: "folder",
-			position: "top-52 right-80",
+			position: "top-40 right-80",
 			windowPosition: "top-[20vh] left-7",
 			children: [
 				{
@@ -355,7 +355,7 @@ const ABOUT_LOCATION = {
 			icon: "/images/txt.png",
 			kind: "file",
 			fileType: "txt",
-			position: "top-60 left-5",
+			position: "top-40 right-5",
 			subtitle: "Meet the Developer Behind the Code",
 			image: "/images/me.jpg",
 			description: [
