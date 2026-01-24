@@ -21,7 +21,7 @@ const Terminal = () => {
 					<p className="text-black">Technologies</p>
 				</div>
 
-				<ul className="content">
+				<ul className="content text-black">
 					{techStack.map(({ category, items }) => (
 						<li key={category} className="flex items-center">
 							<Check className="check" size={20} />
