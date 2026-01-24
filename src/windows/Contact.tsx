@@ -15,9 +15,9 @@ const Contact = () => {
 					alt="Kartikay Singh"
 					className="w-20 rounded-full"
 				/>
-				<h3>Let's Connect</h3>
-				<p>Let's connect each other's brain.</p>
-				<p>
+				<h3 className="text-black">Let's Connect</h3>
+				<p className="text-black">Let's connect each other's brain.</p>
+				<p className="text-black">
 					<a href="mailto:kartikay.singh.0211@gmail.com" className="underline">
 						kartikay.singh.0211@gmail.com
 					</a>

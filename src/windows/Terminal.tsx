@@ -12,13 +12,13 @@ const Terminal = () => {
 			</div>
 
 			<div className="techstack">
-				<p>
+				<p className="text-black">
 					<span className="font-bold">@kartikay %</span>
 					show tech stack
 				</p>
 				<div className="label">
-					<p className="w-32">Category</p>
-					<p>Technologies</p>
+					<p className="w-32 text-black">Category</p>
+					<p className="text-black">Technologies</p>
 				</div>
 
 				<ul className="content">
@@ -28,7 +28,7 @@ const Terminal = () => {
 							<h3>{category}</h3>
 							<ul>
 								{items.map((item, i) => (
-									<li key={i}>
+									<li key={i} className="text-black">
 										{item}
 										{i < items.length - 1 ? "," : ""}
 									</li>
