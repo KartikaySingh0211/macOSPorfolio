@@ -251,7 +251,7 @@ const WORK_LOCATION = {
 			icon: "/images/folder.png",
 			kind: "folder",
 			position: "top-40 right-80",
-			windowPosition: "top-[20vh] left-7",
+			windowPosition: "top-[10vh] left-30",
 			children: [
 				{
 					id: 1,

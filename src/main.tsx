@@ -3,11 +3,13 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import { ThemeProvider } from "./components/dark-mode/theme-provider.tsx";
+import { Analytics } from "@vercel/analytics/react";
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
 		<ThemeProvider defaultTheme="system" storageKey="macos-portfolio-theme">
+			<Analytics />
 			<App />
 		</ThemeProvider>
-	</StrictMode>
+	</StrictMode>,
 );
